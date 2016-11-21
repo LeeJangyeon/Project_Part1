@@ -74,8 +74,5 @@ int main(void)
 			}
 		}
 		printf("%8X\n\n", input);
-		
-		//Á¾·á
-	
 	}
 }

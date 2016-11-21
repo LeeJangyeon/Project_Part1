@@ -87,7 +87,7 @@ int main(void)
 
 	// [3] 비트 XOR(^)
 	if (input == 3) {
-		printf("\n비트 연한할 두 정수 입력. >> ");
+		printf("\n비트 연산할 두 정수 입력. >> ");
 		scanf("%d %d", &x, &y);
 
 		//x 출력

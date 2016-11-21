@@ -11,7 +11,7 @@ int main(void)
 
 	printf(" [1] 미터(m)  [2] 인치(in)  [3] 피트(ft)  [4] 야드(yd)  [0] 종료(stop)\n\n");
 
-	printf("[이전단위] --> [변환단위], 두 개의 메뉴 번호를 선택하세요. >>");
+	printf("[이전단위] --> [변환단위], 두 개의 메뉴 번호를 선택하세요. >> ");
 	scanf("%d", &input1);
 	if (input1 > 0)
 	{
@@ -25,7 +25,7 @@ int main(void)
 
 	while (1)
 	{
-		printf("\n[변환할 단위]의 길이를 입력하세요. >>");
+		printf("\n[변환할 단위]의 길이를 입력하세요. >> ");
 		scanf("%lf", &output);
 
 		if (output == 0)
